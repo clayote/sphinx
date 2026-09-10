@@ -121,6 +121,7 @@ test = [
     "defusedxml>=0.7.1",  # for secure XML/HTML parsing
     "setuptools>=70.0",  # for Cython compilation
     "typing_extensions>=4.9",  # for typing_extensions.Unpack
+    "pygments>=2.21.0",  # ensures the expected output of ' and " within HTML <span>
 ]
 translations = [
     "babel>=2.13",
